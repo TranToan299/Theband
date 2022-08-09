@@ -1,0 +1,1 @@
+document.querySelector.addEventListener("click", function(){document.querySelector(#nav .click).style.display = "block"});
