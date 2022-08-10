@@ -28,7 +28,7 @@ html {
 }
 
 
-.cleara {
+.clear {
     clear: both;
 }
 #header {
@@ -257,6 +257,158 @@ html {
     line-height: 24px;
     margin-top:-3px;
 }
+
+/* Places Tour */
+.places-list{
+    margin-top:32px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 48px;
+
+}
+
+.place-item{
+    float:left;
+    width:33.333333%;
+    padding:0 8px;
+}
+.place-img{
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover {
+    opacity:0.7;
+}
+.place-body{
+    background-color: #fff;
+    padding:16px;
+    font-size: 15px;
+}
+.place-heading{
+    font-weight: 600;
+
+}
+.place-time{
+     margin-top:15px;   
+     color:#757575;
+
+}
+.desc-place{
+    margin-top:15px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+
+}
+.place-buy-btn{
+    background-color: #000;
+    color:#fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    display: inline-block;
+    
+}
+.place-buy-btn:hover {
+    background-color: #ccc;
+    color:#000;
+    font-weight: bolder;
+}
+
+/* Modal */
+.modal {
+    /* Overlay */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal .modal-close {
+    position:absolute;
+    padding: 16px;
+    right:0px;
+    color:#fff;
+    font-size: smaller;
+}
+
+.modal .modal-close:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.modal .modal-header{
+    background-color: #009688;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.modal .modal-header > .ti-bag {
+    margin-right: 8px;
+    
+}
+
+.modal .modal-body {
+    padding-left: 16px;
+    
+}
+
+.modal label {
+    display: block;
+    padding: 15px 0px;
+}
+
+.modal .modal-input{
+    padding: 8px;
+    width: 870px;
+    opacity: 800;
+}
+
+.modal button{
+    display: block;
+}
+
+#buy-tickets .ti-check{
+    margin-left:6px;
+    font-weight: bolder;
+}
+
+.modal-body #buy-tickets{
+    width: 870px;
+    margin:16px 0px;
+    padding:16px;   
+    height: 24px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #009688;
+    color: #fff;
+}
+
+.modal-body #buy-tickets:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+.modal .modal-container{
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+}
+
 /* Footer Section */
 #footer {
 
